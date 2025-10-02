@@ -1,27 +1,18 @@
-class Solution {
-    static int calcPath(String str)
-{
-    int x = 0, y = 0;
-    for (int i = 0; i < str.length(); i++)
-    {
-        char dir = str.charAt(i);
-        if (dir == 'W')
-        {
-            x--;
+public class CalcPath {
+    static int calcPath(String str) {
+        int x = 0, y = 0;
+        for (int i = 0; i < str.length(); i++) {
+            char dir = str.charAt(i);
+            if (dir == 'W') {
+                x--;
+            } else if (dir == 'N') {
+                y++;
+            } else if (dir == 'S') {
+                y--;
+            } else {
+                x++;
+            }
         }
-        else if (dir == 'N')
-        {
-            y++;
-        }
-        else if (dir == 'S')
-        {
-            y--;
-        }
-        else
-        {
-            x++;
-        }
+        return (int) Math.sqrt((x * x) + (y * y));
     }
-    return (int)Math.sqrt((x * x) + (y * y));
-}
 }

@@ -1,4 +1,4 @@
-class Solution {
+public class UpperCaseTitle {
     public String capitalizeTitle(String title) {
         if (title == null || title.isEmpty()) {
             return title;
@@ -17,7 +17,7 @@ class Solution {
                 result.append(Character.toUpperCase(word.charAt(0)));
                 result.append(word.substring(1).toLowerCase());
             }
-            
+
             // Add space between words (but not after the last word)
             if (i < words.length - 1) {
                 result.append(" ");

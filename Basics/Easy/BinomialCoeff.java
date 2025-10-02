@@ -1,6 +1,5 @@
-class Solution {
+public class BinomialCoeff {
     public int nCr(int n, int r) {
-        // code here
         return fact(n)/(fact(r)*fact(n-r));
     }
     public int fact(int num){

@@ -1,21 +1,15 @@
-/**
- * // This is MountainArray's API interface.
- * // You should not implement it, or speculate about its implementation
- * interface MountainArray {
- *     public int get(int index) {}
- *     public int length() {}
- * }
- */
- 
-class Solution {
+public class FindMountainArray {
+    interface MountainArray {
+        public int get(int index);
+        public int length();
+    }
+    
     public int findInMountainArray(int target, MountainArray mountainArr) {
         int peak = findPeak(mountainArr);
         
-        // Search in ascending part first
         int leftSearch = binarySearch(mountainArr, target, 0, peak, true);
         if (leftSearch != -1) return leftSearch;
         
-        // If not found, search in descending part
         return binarySearch(mountainArr, target, peak + 1, mountainArr.length() - 1, false);
     }
     

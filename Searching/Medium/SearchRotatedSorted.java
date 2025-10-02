@@ -1,14 +1,14 @@
-class Solution {
+public class SearchRotatedSorted {
     public int search(int[] nums, int target) {
         int left = 0, right = nums.length - 1;
-        
+
         while (left <= right) {
             int mid = left + (right - left) / 2;
-            
+
             if (nums[mid] == target) {
                 return mid;
             }
-            
+
             // Check if left half is sorted
             if (nums[left] <= nums[mid]) {
                 // Target is in the sorted left half
@@ -17,7 +17,7 @@ class Solution {
                 } else {
                     left = mid + 1;
                 }
-            } 
+            }
             // Otherwise right half is sorted
             else {
                 // Target is in the sorted right half
@@ -28,7 +28,7 @@ class Solution {
                 }
             }
         }
-        
+
         return -1;
     }
 }
