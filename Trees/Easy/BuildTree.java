@@ -1,5 +1,3 @@
-package Trees.Easy;
-
 import java.util.LinkedList;
 import java.util.Queue;
 
