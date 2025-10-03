@@ -1,7 +1,7 @@
 package Sorting.Easy;
 
 public class CycleSort {
-    public static void CycleSort(int[] nums) {
+    public static void cycleSort(int[] nums) {
         int i = 0;
         while (i < nums.length) {
             int correctIndex = nums[i] - 1;

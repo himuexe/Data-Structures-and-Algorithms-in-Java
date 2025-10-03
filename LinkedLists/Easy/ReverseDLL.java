@@ -5,6 +5,7 @@ public class ReverseDLL {
         int data;
         Node next;
         Node prev;
+
         Node(int data) {
             this.data = data;
             this.next = null;
@@ -14,11 +15,9 @@ public class ReverseDLL {
 
     private Node head;
     private Node tail;
-    private int size;
 
     public void addFirst(int data) {
         Node newNode = new Node(data);
-        size++;
         if (head == null) {
             head = tail = newNode;
             return;

@@ -3,12 +3,12 @@ package LinkedLists.Easy;
 public class DoublyLinkedList {
     private Node head;
     private Node tail;
-    private int size;
 
     private static class Node {
         int data;
         Node prev;
         Node next;
+
         public Node(int data) {
             this.data = data;
             this.prev = null;
@@ -25,7 +25,6 @@ public class DoublyLinkedList {
             newNode.prev = tail;
             tail = newNode;
         }
-        size++;
     }
 
     public boolean remove(int data) {
@@ -49,7 +48,6 @@ public class DoublyLinkedList {
                     current.prev.next = current.next;
                     current.next.prev = current.prev;
                 }
-                size--;
                 return true;
             }
             current = current.next;
