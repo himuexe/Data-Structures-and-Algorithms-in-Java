@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 public class BuySellStock1 {
     public int maxProfit(int[] prices) {
         int minPrice = prices[0], profit = 0;

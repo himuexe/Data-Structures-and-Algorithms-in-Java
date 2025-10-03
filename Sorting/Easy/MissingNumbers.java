@@ -1,3 +1,5 @@
+package Sorting.Easy;
+
 import java.util.*;
 
 public class MissingNumbers {

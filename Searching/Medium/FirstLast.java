@@ -1,3 +1,5 @@
+package Searching.Medium;
+
 public class FirstLast {
     public int[] searchRange(int[] nums, int target) {
         int[] ans = { -1, -1 };

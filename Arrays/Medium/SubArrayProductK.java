@@ -1,3 +1,5 @@
+package Arrays.Medium;
+
 public class SubArrayProductK {
     public int numSubarrayProductLessThanK(int[] nums, int k) {
         if (k <= 1)

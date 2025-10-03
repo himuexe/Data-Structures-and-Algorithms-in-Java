@@ -1,3 +1,5 @@
+package Basics.Easy;
+
 public class PrimesInRange {
     public int[] sieve(int n) {
         boolean[] isPrime = new boolean[n + 1];

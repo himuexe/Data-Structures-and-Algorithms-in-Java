@@ -1,3 +1,5 @@
+package Basics.Medium;
+
 public class Clock {
     public double angleClock(int hour, int minutes) {
         double minuteAngle = minutes * 6;

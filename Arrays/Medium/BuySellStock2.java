@@ -1,3 +1,5 @@
+package Arrays.Medium;
+
 public class BuySellStock2 {
     public int maxProfit(int[] prices) {
         int profit = 0;

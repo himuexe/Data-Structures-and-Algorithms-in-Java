@@ -1,3 +1,5 @@
+package LinkedLists.Easy;
+
 public class ReverseLL {
     class Solution {
     public ListNode reverseList(ListNode head) {

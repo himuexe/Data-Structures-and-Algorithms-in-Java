@@ -1,3 +1,5 @@
+package Basics.Easy;
+
 public class BinaryToDecimal {
     public int binaryToDecimal(String b) {
         return Integer.parseInt(b, 2);

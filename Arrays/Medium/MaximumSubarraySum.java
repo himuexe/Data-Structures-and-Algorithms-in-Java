@@ -1,3 +1,5 @@
+package Arrays.Medium;
+
 public class MaximumSubarraySum {
     public int maxSubArray(int[] nums) {
         int maxGlobal = nums[0], maxCurrent = nums[0];

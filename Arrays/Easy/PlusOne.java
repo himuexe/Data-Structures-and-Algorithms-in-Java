@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 public class PlusOne {
     public int[] plusOne(int[] digits) {
         int carry = 1;

@@ -1,3 +1,5 @@
+package Searching.Medium;
+
 public class MinRotatedSorted {
     public int findMin(int[] nums) {
         int left = 0, right = nums.length - 1;

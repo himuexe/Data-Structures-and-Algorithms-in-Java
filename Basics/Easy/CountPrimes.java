@@ -1,3 +1,5 @@
+package Basics.Easy;
+
 public class CountPrimes {
     public int countPrimes(int n) {
         if (n <= 1)

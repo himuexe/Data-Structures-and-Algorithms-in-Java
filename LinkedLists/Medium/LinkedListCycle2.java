@@ -1,3 +1,5 @@
+package LinkedLists.Medium;
+
 public class LinkedListCycle2 {
     public ListNode detectCycle(ListNode head) {
         ListNode slow = head, fast = head;

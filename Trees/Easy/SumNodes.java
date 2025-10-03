@@ -1,14 +1,4 @@
 
-class Node {
-    int data;
-    Node left, right;
-
-    Node(int item) {
-        data = item;
-        left = right = null;
-    }
-}
-
 public class SumNodes {
     static int sumBT(Node root) {
         if (root == null)
@@ -16,5 +6,15 @@ public class SumNodes {
         int lh = sumBT(root.left);
         int rh = sumBT(root.right);
         return lh + rh + root.data;
+    }
+}
+
+class Node {
+    int data;
+    Node left, right;
+
+    Node(int item) {
+        data = item;
+        left = right = null;
     }
 }

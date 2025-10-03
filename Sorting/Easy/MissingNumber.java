@@ -1,3 +1,5 @@
+package Sorting.Easy;
+
 public class MissingNumber {
     public int missingNumber(int[] nums) {
         sort(nums);

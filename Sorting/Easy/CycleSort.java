@@ -1,3 +1,5 @@
+package Sorting.Easy;
+
 public class CycleSort {
     public static void CycleSort(int[] nums) {
         int i = 0;

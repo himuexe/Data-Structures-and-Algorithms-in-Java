@@ -1,3 +1,5 @@
+package Sorting.Medium;
+
 import java.util.*;
 
 public class Duplicates {

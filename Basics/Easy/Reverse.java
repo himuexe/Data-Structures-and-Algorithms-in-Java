@@ -1,3 +1,5 @@
+package Basics.Easy;
+
 public class Reverse {
     public int reverseDigits(int n) {
         int rev = 0;

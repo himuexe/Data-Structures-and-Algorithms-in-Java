@@ -1,3 +1,5 @@
+package LinkedLists.Easy;
+
 public class ReverseDLL {
     class Node {
         int data;

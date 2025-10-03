@@ -1,4 +1,6 @@
-public class LinkedList {
+package LinkedLists.Easy;
+
+public class LinkedListBasics {
     class Node {
         int data;
         Node next;

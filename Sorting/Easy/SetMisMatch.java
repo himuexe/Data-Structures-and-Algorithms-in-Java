@@ -1,3 +1,5 @@
+package Sorting.Easy;
+
 public class SetMisMatch {
     public int[] findErrorNums(int[] nums) {
         sort(nums);

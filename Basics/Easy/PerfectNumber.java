@@ -1,3 +1,5 @@
+package Basics.Easy;
+
 public class PerfectNumber {
     public boolean checkPerfectNumber(int num) {
         if (num <= 1)

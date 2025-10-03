@@ -1,3 +1,5 @@
+package Arrays.Medium;
+
 public class DominoRotations {
     public int minDominoRotations(int[] tops, int[] bottoms) {
         int rotations = check(tops, bottoms, tops[0]);

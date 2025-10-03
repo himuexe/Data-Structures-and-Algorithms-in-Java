@@ -1,3 +1,5 @@
+package Arrays.Medium;
+
 public class TwoSum2 {
     public int[] twoSum(int[] numbers, int target) {
         int left = 0, right = numbers.length - 1;

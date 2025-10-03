@@ -1,3 +1,5 @@
+package Basics.Easy;
+
 public class TrailingZeroes {
     public int trailingZeroes(int n) {
         int count = 0;

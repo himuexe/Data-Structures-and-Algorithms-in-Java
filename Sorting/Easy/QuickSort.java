@@ -1,3 +1,5 @@
+package Sorting.Easy;
+
 public class QuickSort {
     public void quickSort(int[] arr, int low, int high) {
         if (low < high) {

@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 public class DiagonalSum {
     public int diagonalSum(int[][] mat) {
         int sum = 0;

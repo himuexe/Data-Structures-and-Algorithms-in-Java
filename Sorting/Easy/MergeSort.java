@@ -1,3 +1,5 @@
+package Sorting.Easy;
+
 public class MergeSort {
 
     void mergeSort(int arr[], int left, int right) {

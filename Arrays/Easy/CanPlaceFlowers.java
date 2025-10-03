@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 public class CanPlaceFlowers {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
         int count = 0;

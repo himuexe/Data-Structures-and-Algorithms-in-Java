@@ -1,3 +1,5 @@
+package Arrays.Medium;
+
 public class PairSumRotatedSorted {
     static boolean pairInSortedRotated(int arr[], int target) {
         int n = arr.length;

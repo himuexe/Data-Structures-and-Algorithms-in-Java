@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 public class MoveZeros {
     public void moveZeroes(int[] nums) {
         int writeIndex = 0;

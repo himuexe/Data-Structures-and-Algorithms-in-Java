@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 public class SortParity {
     public int[] sortArrayByParity(int[] nums) {
         int left = 0;

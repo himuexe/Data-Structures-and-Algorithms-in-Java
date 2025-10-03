@@ -1,3 +1,5 @@
+package LinkedLists.Medium;
+
 public class SortList {
     private ListNode getMid(ListNode head) {
         ListNode slow = head;

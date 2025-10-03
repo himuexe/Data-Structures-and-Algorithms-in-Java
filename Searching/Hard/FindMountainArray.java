@@ -1,3 +1,5 @@
+package Searching.Hard;
+
 public class FindMountainArray {
     interface MountainArray {
         public int get(int index);

@@ -1,3 +1,5 @@
+package Basics.Easy;
+
 public class HappyNumber {
     public boolean isHappy(int n) {
         int slow = n, fast = n;

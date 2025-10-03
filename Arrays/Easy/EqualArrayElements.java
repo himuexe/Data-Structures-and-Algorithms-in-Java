@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 public class EqualArrayElements {
     public int minMoves(int[] nums) {
         int min = nums[0];

@@ -1,5 +1,21 @@
 import java.util.*;
 
+public class PostOrder {
+    public List<Integer> postorderTraversal(TreeNode root) {
+        List<Integer> list = new ArrayList<>();
+        postOrder(root, list);
+        return list;
+    }
+
+    public void postOrder(TreeNode root, List<Integer> list) {
+        if (root == null)
+            return;
+        postOrder(root.left, list);
+        postOrder(root.right, list);
+        list.add(root.val);
+    }
+}
+
 class TreeNode {
     int val;
     TreeNode left;
@@ -16,21 +32,5 @@ class TreeNode {
         this.val = val;
         this.left = left;
         this.right = right;
-    }
-}
-
-public class PostOrder {
-    public List<Integer> postorderTraversal(TreeNode root) {
-        List<Integer> list = new ArrayList<>();
-        postOrder(root, list);
-        return list;
-    }
-
-    public void postOrder(TreeNode root, List<Integer> list) {
-        if (root == null)
-            return;
-        postOrder(root.left, list);
-        postOrder(root.right, list);
-        list.add(root.val);
     }
 }

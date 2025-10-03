@@ -1,3 +1,5 @@
+package Basics.Easy;
+
 public class ReverseBits {
     public int reverseBits(int n) {
         int ans = 0;

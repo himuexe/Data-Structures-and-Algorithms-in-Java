@@ -1,3 +1,5 @@
+package Searching.Easy;
+
 public class Floor {
     public static int ceiling(int[] arr, int target) {
         int left = 0;

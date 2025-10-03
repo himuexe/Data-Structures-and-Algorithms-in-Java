@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 public class MinTime {
     public int minTimeToVisitAllPoints(int[][] points) {
         int time = 0;

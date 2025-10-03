@@ -1,3 +1,5 @@
+package LinkedLists.Easy;
+
 public class PalindromeLL {
     private ListNode findMid(ListNode head) {
         ListNode slow = head, fast = head;

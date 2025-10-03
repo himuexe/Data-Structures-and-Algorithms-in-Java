@@ -1,3 +1,5 @@
+package Basics.Easy;
+
 public class PowerThree {
     public boolean isPowerOfThree(int n) {
         if (n <= 0)

@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 public class MergeSortedArray {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int p1 = m - 1, p2 = n - 1, p = m + n - 1;

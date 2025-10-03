@@ -1,3 +1,5 @@
+package LinkedLists.Medium;
+
 public class ReverseList2 {
     class Solution {
     public ListNode reverseBetween(ListNode head, int left, int right) {

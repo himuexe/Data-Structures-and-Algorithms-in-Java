@@ -1,3 +1,5 @@
+package Sorting.Easy;
+
 public class BubbleSort {
     public void bubbleSort(int[] arr) {
         boolean swapped = false;

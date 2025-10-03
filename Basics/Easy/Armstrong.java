@@ -1,3 +1,5 @@
+package Basics.Easy;
+
 public class Armstrong {
     static boolean armstrongNumber(int n) {
         if (n < 0)

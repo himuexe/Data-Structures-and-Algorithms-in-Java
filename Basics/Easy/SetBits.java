@@ -1,3 +1,5 @@
+package Basics.Easy;
+
 public class SetBits {
     public int hammingWeight(int n) {
         int count = 0;

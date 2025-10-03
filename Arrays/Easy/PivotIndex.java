@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 public class PivotIndex {
     public int pivotIndex(int[] nums) {
         int totalSum = 0;

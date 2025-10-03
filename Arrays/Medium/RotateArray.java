@@ -1,3 +1,5 @@
+package Arrays.Medium;
+
 public class RotateArray {
     public void rotate(int[] nums, int k) {
         k = k % nums.length;

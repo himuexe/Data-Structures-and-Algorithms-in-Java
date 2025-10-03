@@ -1,3 +1,5 @@
+package Arrays.Hard;
+
 public class TrappingRainwater {
     public int trap(int[] height) {
         int water = 0;

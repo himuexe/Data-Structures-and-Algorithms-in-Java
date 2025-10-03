@@ -1,3 +1,5 @@
+package Searching.Medium;
+
 public class SearchRotatedSorted2 {
     public boolean search(int[] nums, int target) {
         int left = 0, right = nums.length - 1;

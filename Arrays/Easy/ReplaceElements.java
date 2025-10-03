@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 public class ReplaceElements {
     public int[] replaceElements(int[] arr) {
         int max = -1;

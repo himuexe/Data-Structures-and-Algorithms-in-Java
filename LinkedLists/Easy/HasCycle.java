@@ -1,3 +1,5 @@
+package LinkedLists.Easy;
+
 public class HasCycle {
     public boolean hasCycle(ListNode head) {
         ListNode slow = head;

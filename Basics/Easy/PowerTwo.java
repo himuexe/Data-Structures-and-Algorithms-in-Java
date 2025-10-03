@@ -1,3 +1,5 @@
+package Basics.Easy;
+
 public class PowerTwo {
     public boolean isPowerOfTwo(int n) {
         if (n <= 0)

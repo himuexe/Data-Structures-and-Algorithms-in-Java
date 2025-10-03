@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 public class SumZero {
     public int[] sumZero(int n) {
         int[] result = new int[n];

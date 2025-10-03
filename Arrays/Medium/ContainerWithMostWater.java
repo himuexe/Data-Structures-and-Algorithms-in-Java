@@ -1,3 +1,5 @@
+package Arrays.Medium;
+
 public class ContainerWithMostWater {
     public int maxArea(int[] height) {
         int area = 0;

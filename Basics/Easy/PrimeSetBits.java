@@ -1,3 +1,5 @@
+package Basics.Easy;
+
 public class PrimeSetBits {
     public boolean isPrime(int n) {
         if (n <= 1)

@@ -1,3 +1,5 @@
+package Searching.Easy;
+
 public class BinarySearch {
     public static int binarySearch(int[] nums, int left, int right, int target) {
         while (left < right) {

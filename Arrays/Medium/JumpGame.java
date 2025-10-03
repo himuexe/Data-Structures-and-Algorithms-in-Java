@@ -1,3 +1,5 @@
+package Arrays.Medium;
+
 public class JumpGame {
     public boolean canJump(int[] nums) {
         int maxReachable = 0;

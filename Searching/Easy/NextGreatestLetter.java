@@ -1,3 +1,5 @@
+package Searching.Easy;
+
 public class NextGreatestLetter {
     public char nextGreatestLetter(char[] letters, char target) {
         int left = 0;

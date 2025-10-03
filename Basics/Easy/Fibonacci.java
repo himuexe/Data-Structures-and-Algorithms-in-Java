@@ -1,3 +1,5 @@
+package Basics.Easy;
+
 public class Fibonacci {
     public int fib(int n) {
         if (n < 0 || n == 0)

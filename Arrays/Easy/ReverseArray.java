@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 public class ReverseArray {
     public void reverseArray(int arr[]) {
         int left = 0;

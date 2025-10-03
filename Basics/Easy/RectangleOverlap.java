@@ -1,3 +1,5 @@
+package Basics.Easy;
+
 public class RectangleOverlap {
     public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
         int left = Math.max(rec1[0], rec2[0]);

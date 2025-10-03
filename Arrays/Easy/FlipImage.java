@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 public class FlipImage {
     public int[][] flipAndInvertImage(int[][] image) {
         for (int i = 0; i < image.length; i++) {
