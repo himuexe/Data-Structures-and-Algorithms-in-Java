@@ -1,4 +1,4 @@
-package Basics.Easy;
+package Basics.Medium;
 
 public class Power {
     public double myPow(double x, int n) {
